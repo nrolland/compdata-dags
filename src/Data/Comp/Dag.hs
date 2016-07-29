@@ -22,6 +22,7 @@
 
 module Data.Comp.Dag
     ( Dag
+    , root, edges, nodeCount
     , termTree
     , reifyDag
     , unravel
